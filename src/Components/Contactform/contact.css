@@ -1,0 +1,212 @@
+/* Custom styles for the form */
+.my-custom-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 550px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* Custom styles for the message */
+.my-custom-message {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+/* Custom styles for the flex container */
+.my-custom-flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+/* Custom styles for the labels */
+.my-custom-form label {
+  position: relative;
+}
+
+/* Custom styles for the inputs */
+.my-custom-input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 5px;
+}
+
+/* Custom styles for the spans after the inputs */
+.my-custom-input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.my-custom-input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.my-custom-input:focus + span, .my-custom-input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.my-custom-input:valid + span {
+  color: green;
+}
+
+/* Custom styles for the textarea */
+.my-custom-textarea {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 5px;
+}
+
+/* Custom styles for the spans after the textarea */
+.my-custom-textarea + span {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.my-custom-textarea:placeholder-shown + span {
+  top: 40px;
+  font-size: 0.9em;
+}
+
+.my-custom-textarea:focus + span, .my-custom-textarea:valid + span {
+  top: 50px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.my-custom-textarea:valid + span {
+  color: green;
+}
+
+/* Custom styles for the fancy button */
+.my-custom-fancy {
+  background-color: transparent;
+  border: 2px solid #cacaca;
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 390;
+  letter-spacing: 2px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 8px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 13px;
+}
+
+/* Custom styles for the ::before pseudo-element of the fancy button */
+.my-custom-fancy::before {
+  content: " ";
+  width: 1.7rem;
+  height: 2px;
+  background: #cacaca;
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform: translateX(230%);
+  transform-origin: center;
+  transition: background 0.3s linear, width 0.3s linear;
+}
+
+/* Custom styles for the text inside the fancy button */
+.my-custom-fancy .my-custom-text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #818181;
+  transform: translateX(30%);
+}
+
+/* Custom styles for the top key inside the fancy button */
+.my-custom-fancy .my-custom-top-key {
+  height: 2px;
+  width: 1.5625rem;
+  top: -2px;
+  left: 0.625rem;
+  position: absolute;
+  background: white;
+  transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+/* Custom styles for the first bottom key inside the fancy button */
+.my-custom-fancy .my-custom-bottom-key-1 {
+  height: 2px;
+  width: 1.5625rem;
+  right: 1.875rem;
+  bottom: -2px;
+  position: absolute;
+  background: white;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+/* Custom styles for the second bottom key inside the fancy button */
+.my-custom-fancy .my-custom-bottom-key-2 {
+  height: 2px;
+  width: 0.625rem;
+  right: 0.625rem;
+  bottom: -2px;
+  position: absolute;
+  background: white;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+/* Custom styles on hover for the fancy button */
+.my-custom-fancy:hover {
+  color: white;
+  background: #cacaca;
+}
+
+.my-custom-fancy:hover::before {
+  width: 1.5rem;
+  background: white;
+}
+
+.my-custom-fancy:hover .my-custom-text {
+  color: white;
+  padding-left: 1.5em;
+}
+
+.my-custom-fancy:hover .my-custom-top-key {
+  left: -2px;
+  width: 0px;
+}
+
+.my-custom-fancy:hover .my-custom-bottom-key-1,
+ .my-custom-fancy:hover .my-custom-bottom-key-2 {
+  right: 0;
+  width: 0;
+}

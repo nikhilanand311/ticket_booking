@@ -1,0 +1,59 @@
+
+  .heading {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: #7f34d0;
+    padding-top: 7px;
+  }
+  .formstyle {
+    max-width: 400px !important;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-color:  rgb(240, 253, 249);
+    border-radius: 9px;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0 0 10px 6px #2a443a25;
+    display: block;
+    margin: auto;
+  }
+  
+  form {
+    padding: 0px;
+    width: 100%;
+  }
+  .form-containerpage {
+    width: 100%;
+  }
+  label {
+    line-height: 1.9;
+  }
+  input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 45, 188);
+  }
+  .submit-btn {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin-top: 17px;
+    background-color: #7f2bbc;
+    color: rgb(184, 251, 253);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .validation-errors {
+    font-size: 0.8em;
+    color: rgb(212, 18, 18);
+    line-height: 1;
+    margin-top: 0;
+  }
+  

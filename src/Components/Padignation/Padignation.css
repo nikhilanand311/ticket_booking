@@ -1,0 +1,10 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.active>.page-link, .page-link.active{
+    background-color: #9364f0e6;
+    
+}

@@ -1,0 +1,32 @@
+.custom-carousel .carousel-item {
+    transition: transform 0.5s ease; /* Apply the desired easing transition */
+  }
+  
+  .custom-carousel .carousel-item-next,
+  .custom-carousel .carousel-item-prev,
+  .custom-carousel .carousel-item.active {
+    transform: translateX(0); /* Reset the initial transform value */
+  }
+
+  .custom-carousel .carousel-fade .carousel-item {
+    transition-duration: 2s; /* Set the duration to 1 second */
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .event-title {
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 0 rgb(107, 6, 174);
+  }
+
+  .discription {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    /* text-shadow: 1px 1px 0 rgb(147, 20, 237); */
+  }

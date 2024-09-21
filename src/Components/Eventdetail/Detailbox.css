@@ -1,0 +1,39 @@
+.service-flex-container {
+    padding: 0;
+    margin-top: 7em;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap; /*Try nowrap and resize*/
+    position: relative;
+  justify-content: center;
+   color: #8656c8;
+  }
+  
+  .service-flex-item {
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    font-family: "Roboto Condensed",Helvetica Neue,Arial,serif;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .service-flex-item i {
+  font-size:1.5em;
+  }
+  
+
+  .small{
+    font-size: 17px;
+    margin: 0 10px 0 10px;
+  }
+
+  .textp{
+    line-height: 5px;
+    color: aliceblue;
+  }
+
+  .textb{
+    line-height: 45px;
+    
+  }

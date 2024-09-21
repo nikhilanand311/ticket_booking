@@ -1,0 +1,457 @@
+.listar-category-icon-box {
+    background-color: rgb(38, 100, 201);
+  }
+  
+
+.searchbox {
+    
+    background-color: #2f53c1;
+    margin: 5% auto;
+    display: table;
+    width: 70%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    min-height: 200px;
+    padding-bottom: 5%;
+    z-index: 0;
+    border-radius: 10px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+      0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+      0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+      0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+      
+  }
+  
+  .bg-color-blend {
+    opacity: 1;
+    display: block;
+    background-color: transparent;
+    background: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.2) 35%,
+      rgba(47, 83, 191, 0.75) 100%
+    );
+    background: -o-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.2) 35%,
+      rgba(47, 83, 191, 0.75) 100%
+    );
+    background: -ms-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.2) 35%,
+      rgba(47, 83, 191, 0.75) 100%
+    );
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2) 35%,
+      rgba(47, 83, 191, 0.75) 100%
+    );
+    height: 99.99%;
+    z-index: 1;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+      0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+      0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+      0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  }
+  .s-img-con {
+    opacity: 1;
+    background-image: linear-gradient(to right bottom, #b8ebd0, #b6dfaf, #c0d08c, #cfbd6e, #e1a75b, #e28c5b, #db7261, #cd5b6c, #a24871, #713b6b, #402f5a, #132140);
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+      0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+      0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+      0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  }
+  
+  /******************/
+  .listar-header-category-name {
+    font-size: 16px;
+  }
+  
+  .listar-header-category-name {
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+    -ms-hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
+    padding: 4px 8px;
+    border-radius: 40px;
+  }
+  
+  .listar-category-icon-wrapper {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+  
+  .listar-category-icon-wrapper {
+    margin-top: 12px;
+    margin-bottom: 45px;
+  }
+  
+  .listar-search-categories {
+    width: 100%;
+    max-width: 660px;
+    position: absolute;
+    -webkit-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    -moz-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    -o-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    display: block;
+    padding: 0 30px;
+    color: #fff;
+    max-height: 140px;
+    height: 140px;
+    text-align: center;
+    z-index: 4;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 36px 36px 0 0;
+    bottom: 10px;
+    left: 50%;
+  }
+  
+  .listar-category-icon-box {
+    background-color: #2f53bf;
+  }
+  
+  .listar-search-categories .listar-listing-categories a {
+    display: inline-block;
+    min-width: 128px;
+    line-height: 3px;
+    height: auto;
+    top: 0;
+    vertical-align: middle;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 25px 10px;
+    color: #fff;
+    width: auto;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+  }
+  
+  .listar-category-icon-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -22px;
+    background-color: #6c62ed;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listar-search-categories .listar-listing-categories span {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -22px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .listar-search-categories .listar-listing-categories span:before {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -ms-transform-property: -ms-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    -webkit-transform: initial;
+    -moz-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+  }
+  
+  .listar-search-categories .listar-listing-categories span:before,
+  .listar-tagline-category-icon .listar-category-icon-wrapper span:before {
+    display: inline-block;
+    font-size: 22px;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .icon-moon:before {
+    left: 1px;
+  }
+  
+  .icon-moon:before {
+    content: "\e949";
+  }
+  
+  [class^="icon-"]:before,
+  [class*=" icon-"]:before {
+    font-family: "icon" !important;
+    position: relative;
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .listar-search-categories .listar-listing-categories span:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    width: calc(100% + 24px);
+    height: calc(100% + 24px);
+    border-radius: 50%;
+    z-index: -1000;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .listar-search-categories .listar-listing-categories span:after {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .listar-search-categories {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+  }
+  
+  .listar-search-categories {
+    width: 100%;
+    max-width: 660px;
+    position: absolute;
+    -webkit-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    -moz-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    -o-transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    transform: translate(-50%, 0%) translateZ(1009px) translate3d(0, 0, 0);
+    display: block;
+    padding: 0 30px;
+    color: #fff;
+    max-height: 140px;
+    height: 140px;
+    text-align: center;
+    z-index: 4;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 36px 36px 0 0;
+    bottom: 10px;
+    left: 50%;
+  }
+  
+  .listar-search-categories .listar-listing-categories {
+    margin-top: 0;
+    padding: 0;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+  }
+  
+  .listar-search-categories.listar-categories-fixed-bottom {
+    max-height: 120px;
+    height: 120px;
+        top: 5%;
+        
+  }
+  
+  .listar-search-categories .listar-listing-categories span:after {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px 50px 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .listar-search-categories .listar-listing-categories a {
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .listar-search-categories .listar-listing-categories a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .listar-hero-categories-design-marker
+    .listar-search-categories
+    .listar-listing-categories
+    .listar-listing-categories-wrapper
+    .listar-listing-category-link:hover
+    span:after {
+    border-radius: 50px 50px 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .listar-search-categories:hover .listar-listing-categories a span:after {
+    border-radius: 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .listar-search-categories .listar-listing-categories a:hover span:after {
+    border-radius: 50px 50px 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /***********header************/
+  .listar-header-centralizer {
+    position: relative;
+    display: table;
+    overflow-x: hidden;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0;
+    z-index: 3;
+    height: 20vh;
+    min-height: 20vh;
+    height: calc(20vh - var(--vh-offset, 0px));
+    min-height: calc(20vh - var(--vh-offset, 0px));
+  }
+  
+  .listar-header-centralizer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .listar-content-centralized {
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+    white-space: normal;
+    font-size: 14px;
+    line-height: normal;
+     padding-top: 40px;
+    z-index: 1010;
+    -webkit-transform: translateZ(1010px) translate3d(0, 0, 0);
+    -moz-transform: translateZ(1010px) translate3d(0, 0, 0);
+    -o-transform: translateZ(1010px) translate3d(0, 0, 0);
+    transform: translateZ(1010px) translate3d(0, 0, 0);
+  }
+  
+  .listar-hero-container {
+    max-width: 1160px;
+    margin: auto;
+  }
+  
+  .listar-hero-section-title {
+    position: relative;
+    min-height: 50px;
+    z-index: 1011;
+    -webkit-transform: translateZ(1011px) translate3d(0, 0, 0);
+    -moz-transform: translateZ(1011px) translate3d(0, 0, 0);
+    -o-transform: translateZ(1011px) translate3d(0, 0, 0);
+    transform: translateZ(1011px) translate3d(0, 0, 0);
+  }
+  
+  .listar-hero-section-title h1,
+  .listar-hero-section-title p {
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .listar-hero-section-title h1 span {
+    display: inline-block;
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .listar-hero-section-title h1 span {
+      font-size: 18px;
+    }
+    .listar-content-centralized {
+      padding: 0px 16px 352px;
+    }
+  
+    .listar-search-categories .listar-listing-categories {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .listar-search-categories .listar-listing-categories a {
+      min-width: 100px;
+    }
+  
+    .listar-search-categories.listar-categories-fixed-bottom {
+      max-height: 350px;
+      height: 340px;
+      top: 20%;
+    }
+    
+    .searchbox
+    {
+          min-height: 400px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .listar-hero-section-title {
+      font-size: 18px;
+    }
+  }
+  

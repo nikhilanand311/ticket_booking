@@ -1,0 +1,9 @@
+use{cursor:pointer;fill:#fff}
+text{font-family:Arial,sans-serif;font-size:20px;user-select:none;font-weight:400}
+.r{fill:#d99}
+.s{fill: rgb(77, 222, 142);}
+.w{fill:#99d}
+.g{fill:none;stroke:#999}
+text.g{fill:#999;stroke:none;font-size:17px;text-anchor:middle;cursor:default}
+
+.b{fill:#d6c9a5;stroke:#000;stroke-width:.5}
